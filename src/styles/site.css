@@ -72,27 +72,21 @@ main,
   align-items: center;
   gap: 12px;
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.25rem, 4vw, 1.85rem);
-  font-weight: 700;
+  line-height: 1;
 }
 
-.brand-mark {
-  display: grid;
-  width: 48px;
-  height: 48px;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--surface);
-  box-shadow: 0 10px 26px rgba(64, 54, 35, 0.08);
+.brand-logo {
+  display: block;
+  width: min(168px, 42vw);
+  height: auto;
 }
 
-.brand-mark::before {
-  content: "";
-  width: 27px;
-  height: 18px;
-  border-bottom: 3px solid var(--accent);
-  border-radius: 50%;
+.footer-logo {
+  display: block;
+  width: 132px;
+  max-width: 52vw;
+  height: auto;
+  margin-bottom: 8px;
 }
 
 .nav-links {
